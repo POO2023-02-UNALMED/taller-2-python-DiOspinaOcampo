@@ -15,11 +15,10 @@ class Motor:
     def __init__(self, numeroCilindros, tipo, registro):
         self.numeroCilindros = numeroCilindros
         self.registro = registro
-        self.asignarTipo(tipo)
+        self.tipo = tipo
     
     def cambiarRegistro(self, registro):
         self.registro = registro
-    
     
     def asignarTipo(self, tipo):
         tiposValidos = ("electrico","gasolina")
