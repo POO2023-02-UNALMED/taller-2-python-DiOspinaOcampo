@@ -23,7 +23,7 @@ class Motor:
     def asignarTipo(self, tipo):
         tiposValidos = ("electrico","gasolina")
         for tipoValido in tiposValidos:
-            if(tipoValido == tipo.lower):
+            if(tipoValido == tipo.lower()):
                 self.tipo = tipo
                 break
 
